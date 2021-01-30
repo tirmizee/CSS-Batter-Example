@@ -26,3 +26,44 @@
 
 ```
 
+### Ex.2 https://cssbattle.dev/play/2
+
+```html
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+```
+
+```css
+<style>
+  body {
+    background: #62374e;
+  }
+  div {
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+    position :absolute;
+  }
+  div:nth-child(1) {
+    top : 50px;
+    left : 50px
+ 
+  }
+  div:nth-child(2) {
+    top : 50px;
+    right : 50px
+  }
+  div:nth-child(3) {
+    top : 200px;
+    right : 50px
+  }
+   div:nth-child(4) {
+    top : 200px;
+    right : 300px
+  }
+
+</style>
+```
+
