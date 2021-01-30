@@ -67,3 +67,67 @@
 </style>
 ```
 
+### Ex.3 https://cssbattle.dev/play/3
+
+```html
+<div class="contrainer">
+  <div a></div>
+  <div b></div>
+  <div c></div>
+  <div d></div>
+</div>
+```
+
+```css
+<style>
+  body {
+     background:#6592CF;
+  }
+  
+  .contrainer {
+	position : relative;
+  }
+  
+  div[a] {
+    width: 300px;
+    height: 150px;
+    background: #243D83;
+    position : absolute;
+	top : 67px;
+    left : 42px;
+  }
+  
+  div[b] {
+    width: 248px;
+    height: 248px;
+    border-radius : 124px;
+    background:#6592CF;
+    position : absolute;
+    top : 19px;
+    left : 69px;
+  }
+  
+  div[c] {
+    width: 150px;
+    height: 150px;
+    border-radius : 75px;
+    position : absolute;
+    background:#243D83;
+    top : 67px;
+    left : 117px;
+  }
+  
+  div[d] {
+    width: 50px;
+    height: 50px;
+    border-radius : 25px;
+    position : absolute;
+    background: #EEB850;
+    top : 117px;
+    left : 167px;
+  }
+  
+</style>
+```
+
+
