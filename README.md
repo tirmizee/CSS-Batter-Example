@@ -2,9 +2,13 @@
 
 ### Ex.1
 
-```css
+```html
 
 <div></div>
+
+```
+
+```css
 
 <style>
   body {
@@ -21,3 +25,4 @@
 </style>
 
 ```
+
