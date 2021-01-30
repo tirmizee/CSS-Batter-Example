@@ -2,7 +2,7 @@
 
 ### Ex.1
 
-```html
+```css
 
 <div></div>
 
