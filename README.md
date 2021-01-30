@@ -98,13 +98,13 @@
   }
   
   div[b] {
-    width: 248px;
-    height: 248px;
-    border-radius : 124px;
+    width: 250px;
+    height: 250px;
+    border-radius : 125px;
     background:#6592CF;
     position : absolute;
-    top : 19px;
-    left : 69px;
+    top : 16px;
+    left : 66px;
   }
   
   div[c] {
@@ -128,6 +128,7 @@
   }
   
 </style>
+
 ```
 
 
