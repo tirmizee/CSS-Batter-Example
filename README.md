@@ -70,61 +70,60 @@
 ### Ex.3 https://cssbattle.dev/play/3
 
 ```html
-<div class="contrainer">
-  <div a></div>
-  <div b></div>
-  <div c></div>
-  <div d></div>
-</div>
+<div a>
+<div b>
+<div c>
+<div d>
 ```
 
 ```css
 <style>
   body {
-     background:#6592CF;
-  }
-  
-  .contrainer {
-	position : relative;
+    background:#6592CF;
+    margin:0;
   }
   
   div[a] {
-    width: 300px;
+    width: calc(100% - 100px);
     height: 150px;
     background: #243D83;
-    position : absolute;
-	top : 67px;
-    left : 42px;
+    position: absolute;
+    left : 50%;
+    top : 50%;
+    transform:translate(-50%,-50%);
   }
   
-  div[b] {
+   div[b] {
     width: 250px;
     height: 250px;
-    border-radius : 125px;
-    background:#6592CF;
-    position : absolute;
-    top : 16px;
-    left : 66px;
+    border-radius:175px;
+    background: #6592CF;
+    position: absolute;
+    left : 50%;
+    top : 50%;
+    transform:translate(-50%,-50%);
   }
   
   div[c] {
     width: 150px;
     height: 150px;
-    border-radius : 75px;
-    position : absolute;
-    background:#243D83;
-    top : 67px;
-    left : 117px;
+    border-radius:75px;
+    background: #243D83;
+    position: relative;
+    left : 50%;
+    top : 50%;
+    transform:translate(-50%,-50%);
   }
   
   div[d] {
     width: 50px;
     height: 50px;
-    border-radius : 25px;
-    position : absolute;
+    border-radius:25px;
     background: #EEB850;
-    top : 117px;
-    left : 167px;
+    position: absolute;
+    left : 50%;
+    top : 50%;
+    transform:translate(-50%,-50%);
   }
   
 </style>
