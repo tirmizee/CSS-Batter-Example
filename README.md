@@ -386,3 +386,89 @@
 
 </style>
 ```
+
+### Ex.10 https://cssbattle.dev/play/10
+
+```html
+  <div m></div>
+  <div m></div>
+  <div m></div>
+  <div o></div>
+  <div i></div>
+  <div o></div>
+  <div i></div>
+  <div o></div>
+  <div i></div>
+```
+```css
+<style>
+  body {
+    background:#62306D;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+  }
+  div[m] {
+    background:#F7EC7D;
+    width: 100px;
+    border-radius:50px;
+    position: relative;
+    z-index:0;
+  }
+  div[o] {
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    position: absolute;
+    z-index:1;
+  }
+  div[i] {
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    position: absolute;
+    z-index:1;
+  }
+  div:nth-child(1){
+    height: 200px;
+    top : 100px;
+  }
+  div:nth-child(2){
+    height: 300px;
+    top : 50px;
+  }
+  div:nth-child(3){
+    height: 200px;
+    top : 100px;
+  }
+  div:nth-child(4){
+    background:#E38F66;
+    top:50px;
+  }
+  div:nth-child(5){
+    background:#AA445F;
+    top:70px;
+  }
+  div:nth-child(6){
+    background:#AA445F;
+    top : 150px;
+    left : 50px;
+  }
+  div:nth-child(7){
+    background:#E38F66;
+    top : 170px;
+    left : 70px;
+  } 
+  div:nth-child(8){
+    background:#AA445F;
+    top : 150px;
+    left : 250px;
+  }
+  div:nth-child(9){
+    background:#E38F66;
+    top : 170px;
+    left : 270px;
+  }
+</style>
+```
