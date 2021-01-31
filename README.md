@@ -1,4 +1,4 @@
-# CSS-Batter-Example
+# CSS-Battle-Example
 
 ### Ex.1 https://cssbattle.dev/play/1
 
@@ -213,6 +213,29 @@
     border-radius:60px 60px 60px 60px;
     margin-top:82px;
     transform:translate(-50%,-50%);
+  }
+</style>
+```
+
+### Ex.5 https://cssbattle.dev/play/5
+
+```html
+<div></div>
+```
+```css
+<style>
+  body {
+    background:#E3516E;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  div:nth-child(1){
+    width: 200px;
+    height: 200px;
+    background: conic-gradient(#FADE8B 0% 25%, #E3516E 25% 50%, #F7F3D7 50% 75%, #51B5A9 75% 100%);
+    border-radius:50% 50% 50% 50%;
+    position: absolute;
   }
 </style>
 ```
