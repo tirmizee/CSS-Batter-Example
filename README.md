@@ -278,3 +278,64 @@
 </style>
 
 ```
+
+
+### Ex.8 https://cssbattle.dev/play/8
+
+```html
+  <div odd></div>
+  <div event></div>
+  <div odd></div>
+  <div event></div>
+  <div odd></div>
+  <div event></div>
+  <div odd></div>
+  <div></div>
+  <div></div>
+  <div></div>
+```
+```css
+<style>
+  body {
+    background:#6592CF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+  }
+  div[odd]{
+    background: #060F55;
+    width:20px;
+    height:130px;
+    position: relative;
+    border-radius:20px;
+    top:-35px
+  }
+  div[event]{
+    background: #6592CF;
+    width:20px;
+    height:100px;
+    position: relative;
+    border-radius:20px;
+    z-index:1;
+    top:-40px
+  }
+  div:nth-child(8){
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    position:absolute;
+    background: #060F55;
+    bottom:50px;
+    z-index:0;
+  }
+  div:nth-child(9){
+    background:#060F55;
+    width:20px;
+    height:130px;
+    position: absolute;
+    top : 200px;
+    z-index : 1;
+  }
+</style>
+```
