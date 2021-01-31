@@ -339,3 +339,50 @@
   }
 </style>
 ```
+
+### Ex.9 https://cssbattle.dev/play/9
+
+```html
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+```
+```css
+<style>
+  body {
+    background:#222730;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+  }
+  div:nth-child(1){
+    background:#4CAAB3;
+    height:150px;
+	width : 100%
+  }
+  div:nth-child(2){
+    background: #222730;
+    height:250px;
+    width:250px;
+    transform: rotate(45deg);
+    position: absolute;
+  }
+  div:nth-child(3){
+    background: #4CAAB3;
+    height:150px;
+    width:150px;
+    transform: rotate(45deg);
+    position: absolute;
+  }
+  div:nth-child(4){
+    background: #393E46;
+    height:50px;
+    width:50px;
+    position: absolute;
+    border-radius:50%;
+  }
+
+</style>
+```
