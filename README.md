@@ -239,3 +239,42 @@
   }
 </style>
 ```
+
+### Ex.7 https://cssbattle.dev/play/7
+
+```html
+  <div></div>
+  <div></div>
+  <div></div>
+```
+```css
+<style>
+  body {
+    background:#0B2429;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+  }
+  div {
+    position: relative;
+    border-radius:65% 0% 65% 0%;
+    width: 150px;
+    height: 150px;
+  }
+  div:nth-child(1){
+    background: #1A4341;
+    left:25px;
+    
+  }
+  div:nth-child(2){
+    background: #998235;
+    position: absolute;
+  }
+  div:nth-child(3){
+    background: #F3AC3C;
+    left:-25px;
+  }
+</style>
+
+```
