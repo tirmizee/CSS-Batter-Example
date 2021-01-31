@@ -472,3 +472,8 @@
   }
 </style>
 ```
+
+
+### Reference
+
+- https://dzone.com/articles/css-position-relative-vs-position-absolute#:~:text=Relative%20%2D%20the%20element%20is%20positioned,on%20the%20user's%20scroll%20position.
