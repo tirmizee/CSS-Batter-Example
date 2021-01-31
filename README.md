@@ -174,3 +174,45 @@
 </style>
 ```
 
+### Ex.5 https://cssbattle.dev/play/5
+
+```html
+  <div></div>
+  <div></div>
+  <div></div>
+```
+```css
+<style>
+  body {
+    background:#0B2429;
+    display:flex;
+    justify-content:center;
+    
+  }
+  div:nth-child(1){
+    width: 120px;
+    height: 120px;
+    background:#F3AC3C;
+    border-radius:50% 0px 50% 50%;
+    margin-top:82px;
+    transform:translate(50%,50%);
+    z-index:2;
+  }
+  div:nth-child(2){
+    width: 120px;
+    height: 120px;
+    background:#998235;
+    border-radius:50% 0px 50% 50%;
+    margin-top:82px;
+    z-index:1
+  }
+  div:nth-child(3){
+    width: 120px;
+    height: 120px;
+    background:#F3AC3C;
+    border-radius:60px 60px 60px 60px;
+    margin-top:82px;
+    transform:translate(-50%,-50%);
+  }
+</style>
+```
