@@ -131,3 +131,46 @@
 ```
 
 
+### Ex.4 https://cssbattle.dev/play/4
+
+```html
+  <div></div>
+  <div></div>
+  <div></div>
+```
+```css
+<style>
+  body {
+    background:#62306D;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  div:nth-child(1){
+    width: 100px;
+    height: 100px;
+    background:#F7EC7D;
+    border-radius:0px 0px 50px 50px;
+    margin-top:100px;
+  }
+  
+  div:nth-child(2){
+    width: 100px;
+    height: 100px;
+    background:#F7EC7D;
+    border-radius:50px 50px 0px 0px;
+    margin-top:-100px;
+  }
+  
+  div:nth-child(3){
+    width: 100px;
+    height: 100px;
+    background:#F7EC7D;
+    border-radius:0px 0px 50px 50px;
+    margin-top:100px;
+  }
+  
+</style>
+```
+
