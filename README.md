@@ -217,7 +217,7 @@
 </style>
 ```
 
-### Ex.5 https://cssbattle.dev/play/5
+### Ex.6 https://cssbattle.dev/play/6
 
 ```html
 <div></div>
